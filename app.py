@@ -18,7 +18,7 @@ if not groq_key:
 
 llm = ChatGroq(
     temperature=0.3, # Slightly creative but highly factual
-    model_name="llama-3.3-70b-versatile",
+    model_name="llama-3.1-8b-instant",
     api_key=groq_key
 )
 
